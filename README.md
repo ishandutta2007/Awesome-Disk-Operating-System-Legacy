@@ -1,23 +1,41 @@
-# Awesome-Disk-Operating-System-Legacy
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Disk Operating System Legacy Banner" width="100%" />
+</p>
 
-**Curated List of Legacy Disk Operating Systems & Open-Source Alternatives**
-*Focused on Emulation, Preservation & Modern Reimplementations of Classic DOS*
-**Last updated: October 2026**
+# 💾 Awesome Legacy Disk Operating Systems & Open-Source Emulators 🚀
 
-This repository tracks notable **legacy disk operating systems** and **open-source alternatives** that keep them alive. These tools help retro computing enthusiasts, embedded developers, and historians run, preserve, and modernize the classic command-line operating systems that shaped personal computing.
+<p align="left">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed7818a47381db318f49fe86f77e/media/badge.svg" alt="Awesome List"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Examples** include MS-DOS, PC DOS, FreeDOS, DR-DOS, Apple DOS, ProDOS, Commodore DOS, CP/M, PTS-DOS, and Atari DOS (the legacy category leaders).
+> 🕹️ A curated list of classic legacy disk operating systems (DOS), open-source replacements, hardware-accurate emulators, and WebAssembly preservation tools.
 
-**Open-source emphasis**: The open-source ecosystem for legacy DOS is **exceptionally vibrant and production-proven**. **FreeDOS** is the de-facto open-source MS-DOS replacement, actively developed with a full kernel, utilities, and package ecosystem . **DOSBox-X** provides the most feature-complete DOS emulator with hardware accuracy, Windows 9x support, and long filename handling . **v86** and **DOS Wasm X** run DOS and Windows 95/98 directly in modern browsers via WebAssembly . This section documents these production-grade solutions.
+---
 
-## 📖 Table of Contents
+## 🔍 Overview & SEO Keywords 📌
+
+This repository serves as a comprehensive directory for **legacy disk operating systems**, classic PC retro-computing platforms, and modern open-source DOS reimplementations. Whether you are looking for **MS-DOS preservation**, **CP/M emulators**, **FreeDOS installation guide sources**, **Apple DOS emulators**, or **x86 browser virtualization (WebAssembly / Wasm)**, this list tracks active projects, emulators, and historical source releases.
+
+### 🎯 Key Topics Covered:
+- 💾 **Classic Disk Operating Systems**: MS-DOS, IBM PC DOS, DR-DOS, Apple DOS, ProDOS, CP/M, Commodore DOS, Atari DOS, PTS-DOS.
+- 🔓 **Open-Source DOS Replacements & Emulators**: FreeDOS, DOSBox-X, 86Box, v86, DOS Wasm X, RunCPM, AppleWin, VICE.
+- ⚡ **Retro Computing & Preservation**: WebAssembly browser emulation, x86 hardware accuracy, industrial DOS control software, vintage floppy disk imaging.
+
+---
+
+## 📖 Table of Contents 📑
 
 - [💾 Legacy Disk Operating Systems](#-legacy-disk-operating-systems)
 - [🔓 Open-Source Alternatives & Emulators](#-open-source-alternatives--emulators)
-- [🤝 How to Contribute](#how-to-contribute)
-- [⚠️ Disclaimer](#-disclaimer)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-## 💾 Legacy Disk Operating Systems
+
+## 💾 Legacy Disk Operating Systems 🖥️
 
 > **📊 Market Context**: The legacy DOS market is **not a commercial market** — these operating systems are **abandoned, unsupported, and largely unavailable for purchase**. The value lies in **historical preservation, retro gaming, embedded systems, and industrial control**. DOS remains surprisingly relevant in 2026: **industrial machines, cash registers, and specialized hardware** still rely on DOS-based control software that cannot easily be modernized. **FreeDOS** has become the de-facto open-source replacement, and DOS emulation has matured to the point where classic software runs identically on modern hardware. The ecosystem is **highly fragmented** — each legacy DOS has its own preservation community, emulator, and compatibility challenges.
 
@@ -34,7 +52,7 @@ This repository tracks notable **legacy disk operating systems** and **open-sour
 | **[PTS-DOS](https://en.wikipedia.org/wiki/PTS-DOS)** | **Russian MS-DOS clone.** PhysTechSoft's DOS with Russian language support. **PTS-DOS 32** and **PTS-DOS 2000** were widely used in Russia . | **1993–2010s** | **Discontinued** — later open-sourced as **PTS-DOS 32** . | **DOSBox-X** , **86Box** . |
 | **[Atari DOS](https://en.wikipedia.org/wiki/Atari_DOS)** | **Atari 8-bit computer DOS.** **DOS 2.5** (1983) was the most widely used version, supporting enhanced density disks . | **1979–1980s** | **Discontinued**. | **Atari800** (emulator) , **Altirra** (Windows emulator) . |
 
-## 🔓 Open-Source Alternatives & Emulators
+## 🔓 Open-Source Alternatives & Emulators ⚙️
 
 Sorted by relevance to legacy DOS preservation. Star badge links to each repo's stargazers page.
 
@@ -54,16 +72,26 @@ Sorted by relevance to legacy DOS preservation. Star badge links to each repo's 
 | **[tnylpo](https://github.com/gdevic/tnylpo)** — **CP/M emulator for Linux and Unix.** Runs CP/M 2.2 and 3.0 binaries natively. **GPL-2.0** . | [![Stars](https://img.shields.io/github/stars/gdevic/tnylpo?style=social&color=white)](https://github.com/gdevic/tnylpo/stargazers) | ~200 |
 | **[PTS-DOS 32](https://github.com/)** — **Russian MS-DOS clone, later open-sourced.** PhysTechSoft's DOS with Russian language support. | — | — |
 
-## 🤝 How to Contribute
+## 🤝 How to Contribute 🌟
 
-1. Fork the repo.
+1. Fork the repo 🍴.
 2. Add/edit entries in `README.md` (follow existing format).
 3. Include: name, link, 1–2 sentence description, and whether it's legacy or open-source.
-4. Submit PR with a short explanation.
+4. Submit PR with a short explanation 🚀.
 
-Star the repo if you find it useful!
+Star ⭐ the repo if you find it useful!
 
-## ⚠️ Disclaimer
+## 💖 Support 🙏
+
+Thank you for exploring and preserving retro computing history! If you find this curated list helpful, please consider starring ⭐, forking 🍴, or sharing 📢 this repository with fellow digital archaeologists and retro computing enthusiasts.
+
+If you'd like to support open-source maintenance and ongoing project updates, you can buy me a coffee via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) ☕!
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Disk-Operating-System-Legacy&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Disk-Operating-System-Legacy&type=date&legend=top-left)
+
+## ⚠️ Disclaimer 🔒
 
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 - **Legacy disk operating systems are abandoned and unsupported.** They contain **unpatched security vulnerabilities** and should **never be connected to the internet** or used for sensitive data. Run them in isolated emulators or VMs only.
@@ -73,5 +101,6 @@ Star the repo if you find it useful!
 
 ---
 
-**Made for retro computing enthusiasts, software preservationists, embedded developers, and digital archaeologists.**
-Let's preserve the command-line computing heritage while building its future.
+**Made with ❤️ for retro computing enthusiasts, software preservationists, embedded developers, and digital archaeologists.**  
+Let's preserve the command-line computing heritage while building its future! 🕹️✨
+
