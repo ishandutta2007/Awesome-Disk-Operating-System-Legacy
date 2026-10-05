@@ -54,9 +54,9 @@ This repository serves as a comprehensive directory for **legacy disk operating 
 
 ## 🔓 Open-Source Alternatives & Emulators ⚙️
 
-Sorted by relevance to legacy DOS preservation. Star badge links to each repo's stargazers page.
+Sorted by relevance to legacy DOS preservation. Stars_Badge links to each repo's stargazers page.
 
-| Repo | Description | Stars |
+| Repo | Description | GitHub_Stars |
 |------|-------------|-------|
 | **[FreeDOS](https://github.com/FDOS/kernel)** — **The fully open-source MS-DOS replacement.** **1.4** (2025) with kernel, FreeCOM shell, and full package ecosystem. Runs classic DOS games, business software, and embedded applications. **GPL-2.0** . | [![Stars](https://img.shields.io/github/stars/FDOS/kernel?style=social&color=white)](https://github.com/FDOS/kernel/stargazers) | ~2,000 |
 | **[DOSBox-X](https://github.com/joncampbell123/dosbox-x)** — **The most feature-complete DOS emulator.** Fork of DOSBox with **hardware accuracy, Windows 9x support, long filename handling, and printer emulation**. Supports **DOS, Windows 3.x, Windows 9x, and Windows ME** in one emulator. **GPL-2.0** . | [![Stars](https://img.shields.io/github/stars/joncampbell123/dosbox-x?style=social&color=white)](https://github.com/joncampbell123/dosbox-x/stargazers) | ~5,000 |
